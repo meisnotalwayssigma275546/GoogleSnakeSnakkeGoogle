@@ -555,7 +555,7 @@ let addModSelectorPopup = function() {
         ${googlesnakemodscomLinkHtml}
       </div>
       <div id="code-not-found-message" style="font-family: helvetica, sans-serif;color: #f44336;margin-top: 2px;display: none;">
-        Code not found after 4 seconds. <a href="https://github.com/DarkSnakeGang/GoogleSnakeModLoader/blob/main/docs/code_not_found_yet.md" target="_blank" style="color: var(--mod-loader-link-font-col);">Explanation</a>
+        Code not found after 4 seconds. make sure theres /index.html after it (ex. https://snake-mod.vercel.app/v/1/index.html). <a href="https://github.com/DarkSnakeGang/GoogleSnakeModLoader/blob/main/docs/code_not_found_yet.md" target="_blank" style="color: var(--mod-loader-link-font-col);">Explanation</a>
         ${googlesnakemodscomLinkHtml}
       </div>
       <div id="config-not-loaded-message" style="font-family: helvetica, sans-serif;color: #f44336;margin-top: 2px;display: none;">
