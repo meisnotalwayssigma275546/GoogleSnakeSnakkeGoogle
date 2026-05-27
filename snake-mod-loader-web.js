@@ -1630,6 +1630,11 @@ window.testMod.runCodeAfter = function() {
 }
 
 function loadAndRunCodeSynchronous(url) {
+  // Auto-append /index.html if the URL doesn't have it
+  if (!url.endsWith('/index.html') && !url.endsWith('.js')) {
+    url = url.endsWith('/') ? url + 'index.html' : url + '/index.html';
+  }
+
   let req = new XMLHttpRequest();
   req.open('GET', url, false);
   req.onload = function() {
